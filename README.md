@@ -21,7 +21,7 @@ features:
   - 2 support holes for 3 mm screws
   
   
-partlist: (See complete file in /version_xx/partlist.txt)
+partlist: (See complete file in /version_xx/eagle/partlist.txt)
   - PCB at OSHpark.com see http://www.oshpark.com/profiles/RomainViollette
   - 3 x TDSO 5151 - Seven Segments displays with common anode (any common anode 7 seg display would fit)
   - 2 leds, any basic ones would fit, adapt R5 and R6 for current limiting.
