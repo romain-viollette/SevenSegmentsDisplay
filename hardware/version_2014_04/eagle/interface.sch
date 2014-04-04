@@ -9077,11 +9077,6 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="2.54" y="12.7"/>
 </segment>
 <segment>
-<pinref part="I2C-RXTX" gate="1" pin="1"/>
-<wire x1="190.5" y1="15.24" x2="187.96" y2="15.24" width="0.1524" layer="91"/>
-<label x="187.96" y="15.24" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <wire x1="162.56" y1="10.16" x2="165.1" y2="10.16" width="0.1524" layer="91"/>
 <label x="165.1" y="10.16" size="1.778" layer="95"/>
 <pinref part="ISP" gate="G$1" pin="GND"/>
@@ -9089,6 +9084,11 @@ Source: http://www.osram.convergy.de/</description>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="I2C-RXTX" gate="1" pin="5"/>
+<wire x1="190.5" y1="10.16" x2="187.96" y2="10.16" width="0.1524" layer="91"/>
+<label x="187.96" y="10.16" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -9103,11 +9103,6 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="2.54" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
 <label x="0" y="38.1" size="1.778" layer="95" rot="R180"/>
 <junction x="2.54" y="38.1"/>
-</segment>
-<segment>
-<pinref part="I2C-RXTX" gate="1" pin="2"/>
-<wire x1="205.74" y1="15.24" x2="208.28" y2="15.24" width="0.1524" layer="91"/>
-<label x="208.28" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="ISP" gate="G$1" pin="VCC"/>
@@ -9130,6 +9125,11 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-12.7" y1="68.58" x2="-10.16" y2="68.58" width="0.1524" layer="91"/>
 <label x="-15.24" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="I2C-RXTX" gate="1" pin="6"/>
+<wire x1="205.74" y1="10.16" x2="208.28" y2="10.16" width="0.1524" layer="91"/>
+<label x="208.28" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A" class="0">
@@ -9342,9 +9342,9 @@ Source: http://www.osram.convergy.de/</description>
 <label x="66.04" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="I2C-RXTX" gate="1" pin="6"/>
-<wire x1="205.74" y1="10.16" x2="208.28" y2="10.16" width="0.1524" layer="91"/>
-<label x="208.28" y="10.16" size="1.778" layer="95"/>
+<pinref part="I2C-RXTX" gate="1" pin="2"/>
+<wire x1="205.74" y1="15.24" x2="208.28" y2="15.24" width="0.1524" layer="91"/>
+<label x="208.28" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -9354,9 +9354,9 @@ Source: http://www.osram.convergy.de/</description>
 <label x="66.04" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="I2C-RXTX" gate="1" pin="5"/>
-<wire x1="190.5" y1="10.16" x2="187.96" y2="10.16" width="0.1524" layer="91"/>
-<label x="187.96" y="10.16" size="1.778" layer="95" rot="R180"/>
+<pinref part="I2C-RXTX" gate="1" pin="1"/>
+<wire x1="190.5" y1="15.24" x2="187.96" y2="15.24" width="0.1524" layer="91"/>
+<label x="187.96" y="15.24" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="SCL" class="0">
