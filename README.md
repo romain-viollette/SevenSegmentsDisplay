@@ -23,7 +23,7 @@ features:
   
 partlist: (See complete file in /version_xx/eagle/partlist.txt)
   - PCB at OSHpark.com see http://www.oshpark.com/profiles/RomainViollette
-  - 3 x TDSO 5151 - Seven Segments displays with common anode (any common anode 7 seg display would fit)
+  - 3 x TDSO 5151 - Seven Segments displays with common cathode (any common cathode 7 seg display would fit)
   - 2 leds, any basic ones would fit, adapt R5 and R6 for current limiting.
   - SMD discrete parts form factor 0805:
       - C1 & C3 - 100nF - unpolarized decoupling capacitor
