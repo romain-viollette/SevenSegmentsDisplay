@@ -7,7 +7,7 @@ author: Romain VIOLLETTE romain.viollette@gmail.com
 
 https://github.com/romain-viollette/SevenSegmentsDisplay
 
-http://www.oshpark.com/profiles/RomainViollette
+http://www.oshpark.com/shared_projects/W5Fzhe9d - http://www.oshpark.com/profiles/RomainViollette
 
 
 features:
