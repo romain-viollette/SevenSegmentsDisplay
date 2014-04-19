@@ -9,6 +9,8 @@ https://github.com/romain-viollette/SevenSegmentsDisplay
 
 http://www.oshpark.com/shared_projects/W5Fzhe9d - http://www.oshpark.com/profiles/RomainViollette
 
+![](hardware/version_2013_11/photo/SevenSegmentsDisplay_version_2013_11 (4).JPG)
+
 
 features:
   - small form factor
@@ -40,3 +42,5 @@ notice:
 	- Connectors should be placed on the same side than led display. If you want to put the connector on the other side like I did in the photos (http://bit.ly/1hbSIUK), keep in mind that the pinning is inverted.
 	- There is not power regulator, nor overvoltage protection, so nerver power with more than 5V. (Maybe 3.3 could works?).
  
+![](hardware/version_2013_11/image/top_layer.png)
+![](hardware/version_2013_11/image/bottom_layer.png)
